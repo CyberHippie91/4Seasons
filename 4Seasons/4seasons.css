@@ -1,0 +1,190 @@
+.wrapper {
+	height:auto;
+	width:auto;
+}
+#header {
+	text-align:center;
+	margin:auto;
+}
+
+#about {
+	background-color:blue;
+	text-align:center;
+	margin:auto;
+	height:20em;
+}
+#temp1 {
+	background-color:red;
+	padding:2em;
+}
+#temp{
+	background-color:yellow;
+	padding:2em;
+}
+#cardlink {
+	margin-top:50%;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #4F4848;
+  z-index:100;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar a:visited {
+	color:yellow;
+	background-color:cyan;
+}
+#navbar a:hover {
+	color:blue;
+}
+
+#navbar a:active {
+	color:white;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#check {
+	background-color:black;
+}
+
+#indexcarouselimg{
+	height:22em;
+	width:100%;
+}
+
+.carousel-indicators{
+	z-index:1;
+}
+#columns{
+	margin:auto;
+	
+}
+
+#indexcards{
+	margin:auto;
+
+}
+#socialmedia {
+	margin:auto;
+	text-align:center;
+	padding:1em;
+	
+}
+
+#footer {
+	background-color:green;
+	color:white;
+	width:100%;
+	text-align:center;
+	
+}
+
+
+
+/*****************************************************About Page *******************************************/
+
+.title {
+	background-color:yellow;
+	text-align:center;
+	margin:auto;
+	height:Auto;
+	width:15em;
+}
+
+.aboutpara{
+	text-indent: 50px;
+	
+	
+}
+
+.aboutimage {
+	height:15em;
+	width:15em;
+	cursor:pointer;
+	margin-bottom:1em;
+	
+}
+/*****************************************************Event Page *******************************************/
+
+.eventimage {
+	margin:0 auto;
+	text-align:center;
+}
+
+/*****************************************************Menu Page *******************************************/
+
+#center{
+	text-align:center;
+	margin:auto;
+}
+
+#menulink {
+	margin:auto;
+}
+/*****************************************************Gallery Page *******************************************/
+
+.gallerycard {
+	margin-bottom:3%;
+	border-color:black;
+	border-width:1.5px;
+	cursor:pointer;
+	
+	
+}
+
+.gallerycarousel {
+	width:auto;
+	
+}
+
+.carouselwrapper{
+	
+max-width:75%;
+max-height:60%;
+margin:0;
+
+}
+
+/*****************************************************Contact Us Page *******************************************/
+
+.contactcol {
+	margin-bottom:3%;
+	
+}
+
+#googlemaps {
+	background-color:black;
+	min-height:20em;
+	
+}
+
+#contactus {
+	background-color:red;
+	min-height:25em;
+	
+}
