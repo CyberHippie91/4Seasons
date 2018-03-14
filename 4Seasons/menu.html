@@ -1,6 +1,9 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <HTML Lang="en">
-	<head>
+	<head  profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.ico">
 		<title> 4Seasons </title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,69 +14,161 @@
 	
 	<body>
 		<div class="wrapper">
-			 <div class="jumbotron jumbotron-fluid" id="header">
-				<div id="navbar">
-				  <a href="index.html">Home</a>
-				  <a href="about.html">About Us</a>
-				  <a href="menu.html">Menu</a>
-				  <a href="event.html">Events</a>
-				  <a href="gallery.html">Gallery</a>
-				  <a href="contact.html">Contact Us</a>
+			
+			<div class="jumbotron jumbotron-fluid" id="header">
+				<nav class="navbar navbar-expand-md navbar-toggleable-md" id="navigation">
+				<button class="navbar-toggler navbar-toggler-right custom-nav-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon "></span>
+					 
+				  </button>
+				  <img class="justify-content-end d-block d-sm-block d-md-none" src="images/lgsml.png"  width="70" height="35" alt="logo">
+				   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+					  <a href="index.html">HOME</a>
+					  </li>
+					  <li class="nav-item">
+				  <a href="construction.html">ABOUT US</a>
+				  </li>
+				  <li class="nav-item">
+				  <a href="menu.html">MENU<span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+				  <a href="construction.html">EVENTS</a>
+				  </li>
+				  <li class="nav-item">
+				  <a href="gallery.html">GALLERY</a>
+				  </li>
+				  <li class="nav-item">
+				  <a href="contact.html">CONTACT US</a>
+				  </li>
+				  </ul>
+				  <ul class="navbar-nav justify-content-end">
+				  <li class="nav-item d-none d-md-block d-xl-block logohidden">
+				  <img src="images/lgsml.png"  width="70" height="35" alt="logo">
+				  </li>
+				  </ul>
 				</div>
-				<div class="container">
-				<p>This will have an image</p> 
-			  </div>
+			 
+			</nav>
+			<div class="container-fluid">
+				<h1 class="headertext"> 4 SEASONS BRASSERIE </h1>
+				<h2 class="headertext d-none d-sm-block"> FINE FOOD & WINE </h2>
+				<h3 class="headertextsml d-none d-sm-block" >OPEN 7 DAYS A WEEK </h3>
+				<h2 class="headertext d-block d-sm-none"> 01323 470704  </h2>
 			</div>
-		
-		<div class="container title">
-			<h1> Menu </h1>
 		</div>
 		
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-6" id="temp1">
-					<div class="container" id="center">
+		<div class="container title">
+			<h1 class="photobannerad"> MENU </h1>
+		</div>
+		
+		
+		
+		<div class="container-fluid"  id="menubackground">
+		
+			<div class="row align-items-center">
+			<div class="col-12 col-md-6 col-lg-4">
+					<div class="container">
+						<div class="container center ">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#backerymenu">
+						<h1 class="menulinktext">BAKERY </h1></button>
+						</div>
+					</div>
+					
 						
-						<img class="aboutimage" src="placeholder.png"data-toggle="modal" data-target="#brunchmenu">
+						
 
 
 						<!-- Modal -->
-						<div class="modal fade" id="brunchmenu" tabindex="-1" role="dialog" aria-labelledby="brunchmenuTitle" aria-hidden="true">
+						<div class="modal fade" id="backerymenu" tabindex="-1" role="dialog" aria-labelledby="brunchmenuTitle" aria-hidden="true">
 						  <div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
+							<div class="modal-content center">
 							  <div class="modal-header">
-								<h5 class="modal-title" id="brunchmenuTitle">Brunch Menu</h5>
+							  
+							  
+								<h5 class="modal-title center" id="brunchmenuTitle">BAKERY MENU</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
 							  <div class="modal-body">
-								<h1>Bakery</h1>
-								<h2>Available all day </h2>
-								<p>	Croissants   £2.75  <br>  Pan au Chocolate   £2.95  <br>    Toasted Tea Cake   £2.25 <br> Cream Tea or Savoury Tea  £6.75 <br> 
-							Tea or Coffee with Fruit Scone, Jam and Clotted Cream or Cheese Scone, Cheese and Chutney
-							Fruit Scone or Cheese Scone   £2.95 </p>
+								
+								<h2>Available all day </h2> <br>
+								<h3 class="menusmall">	Croissants   £2.75  </h3>
+								<h3  class="menusmall">		Pan aux Chocolate   £2.95 </h3>
+								<h3  class="menusmall">		Pan aux Raisin   £2.95 </h3>
+								<h3  class="menusmall">		Eccles Cakes      £2.95 </h3>
+								<h3  class="menusmall">	    Toasted Tea Cake   £2.25 <br> </h3> <br>
+										
+									
+										
+								<div class="container border6">
+									<h3  class="menusmall"> Cream Tea or Savoury Tea £6.75 </h3>
+									<p> Tea or Coffee with Fruit Scone, Jam and Clotted Cream or Cheese Scone, Cheese and Chutney </p>
+								</div> <br>
+								
+									<h3  class="menusmall"> Selection of Homemade Cakes and Traybakes </h3>
+									<p> Please see in store in our deli fridge for our daily selection and prices </p>
 							
-						<br>
-						<h1> Brunch Menu </h1>
-						<h2>	Served until 1130am </h2> <br>
-						<h5> Seasons Baked, Full English Breakfast £8.95  </h5> 
-						<p>	Pork Sausage, 2 Rashers Bacon, Fried Egg, Grilled Tomatoes, Mushrooms, Pan Fried Potatoes, Beans and Toast  </p> <br> 
+					
 
-							<h5> Guacamole on Granary Toast £4.25 <br> <br>
+							  </div>
+							  <div class="modal-footer">
+							  
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								
+								<button type="button" class="btn btn-custom-brown">Download</button>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="container">
+						<div class="container center"> 
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#brunchmenu">
+						<h1 class="menulinktext">BRUNCH</h1></button>
+						</div>
+					</div>
+					
+						
+						
 
-							Seasons Bacon Roll £4.95 <br> <br>
 
-							Smoked Salmon on Toast £5.50 </h5>
-							<p>With Poached Egg <br> </p>
+						<!-- Modal -->
+						<div class="modal fade" id="brunchmenu" tabindex="-1" role="dialog" aria-labelledby="brunchmenuTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content center">
+							  <div class="modal-header">
+								<h5 class="modal-title" id="brunchmenuTitle">BRUNCH MENU</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body">
+								
+						
+						<h2>	Last Orders Midday </h2> <br>
+						<h3 class="menusmall"> Full English Breakfast £8.95  </h3> 
+						<p>	Sausage, Bacon, Fried Egg, Tomatoes, Mushrooms, Beans and Toast, Hashbrown (veg option available)  </p> <br> 
 
-							<h5>Porridge £5  </h5>
-							<p>With Honey, Banana and Blueberries </p><br>
+							<h3 class="menusmall"> Guacamole on Granary Toast £4.25 </h3> <br>
+							<h3 class="menusmall">
+							Seasons Bacon Roll £4.95 </h3> <br>
+							<h3 class="menusmall">
+							Smoked Salmon and Poached Egg on Toast £5.50 </h3> <br>
+							
 
-							<h5>Smoked Haddock and Cheddar Omelette £ 6.50 <br>
+							<h3 class="menusmall">Porridge £4.00  </h3>
+							<p>Served with Honey or Fruit Compote</p><br>
 
-							Seasons Breakfast Bap £ 5.95  </h5>
-							<p>Fried Egg, Rasher of Bacon and Sausage</p> <br>
+							<h3 class="menusmall">3 Egg Omlette Plain or with Cheese or Ham £5.90 </h3><br>
+
+							<h3 class="menusmall">Seasons Breakfast Bap £ 5.95  </h3>
+							<p>Fried Egg, Rasher of Bacon and Sausage</p> 
+							<br>
+							<h3 class="menusmall"> Smoked Salmon and Crab Pate with Granary Toast  £5.50 </h3>
 
 
 
@@ -82,33 +177,39 @@
 
 							  </div>
 							  <div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Download</button>
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
 							  </div>
 							</div>
 						  </div>
-						</div></img>
+						</div>
 					</div>
-				</div>
-				<div class="col-6" id="temp">
-					<div class="container" id="center">
+				
+				<div class="col-12 col-md-6 col-lg-4">
+					
+						<div class="container">
+						<div class="container center">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#lunchmenu">
+						<h1 class="menulinktext">LUNCH</h1> </button>
+						</div>
+					</div>
+					
 						
-						<img class="aboutimage" src="placeholder.png" data-toggle="modal" data-target="#lunchmenu">
 
 
 						<!-- Modal -->
 						<div class="modal fade" id="lunchmenu" tabindex="-1" role="dialog" aria-labelledby="lunchmenuTitle" aria-hidden="true">
-						  <div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content center">
 							  <div class="modal-header">
-								<h5 class="modal-title" id="lunchmenuTitle">Lunch Menu</h5>
+								<h5 class="modal-title" id="lunchmenuTitle">LUNCH MENU</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
 							  <div class="modal-body">
 								<h1> Jackets, <br> Toasties or Fresh Rolls </h1>
-								<h4>Served with Coleslaw, Salad garnish, Crisps </h4> <br>
+								<h4>Served with Coleslaw, Salad garnish, and GF Crisps </h4> <br>
 								<h6>Cheese and Red Onion Chutney   7.85 v <br> <br>
 									Tuna Mayo & Cheese  7.85 <br> <br>
 									Smoked Bacon & Brie  7.85 <br> <br>
@@ -117,158 +218,399 @@
 									Sausage and Caramelized Red Onion  8.20 <br> <br>
 									Smoked Salmon & Cream Cheese  8.20 <br> <br>
 									Prawns & Crayfish in Marie Rose Sauce  8.20 <br> <br>
-									Ham, Cheddar and Mustard  8.20 <br> <br>
-									Local Eastbourne Crab with Herb Butter  9.25 <br> </h6> <br>
+									Ham and Cheddar 8.20 <br> <br>
+									Local Crab with Herb Butter  9.25 <br> </h6> <br>
 									
-								<h1>	Light Bites & Platters </h1> <br>
-
-								<h6>	Mixed Nuts  2.95 v <br> <br>
-										Mixed olives  3.00 v <br> <br>
-										Hummus, Toasted Seeds, Roasted Peppers, Pesto, Tortilla Wedges  6.50 <br> <br>
-										Nachos  6.50 v </h6>
-										<p>With Guacamole, Salsa, Cheddar and crème Fraiche </p> <br>
-										<h6>Seasons Quiche of The day  7.95 </h6>
-										<p> Served Hot or Cold, with Antipasti Pickles, Coleslaw, Dressed Salad </p> <br>
-										<h6> Ploughman`s Salad  9.75 </h6>
-										<p>With Ham, Smoked Cheese, Pickles, Coleslaw and Bexhill Farm Kitchen Bread </p> <br>
-										<h6>Fish Platter  9.50 </h6>
-										<p> With a Selection of Selection of Smoked Fish, Seafood, Farm Kitchen Bread and Dressed Salad </p> <br>
-										<h6> Mixed Antipasti Board  9.50 v </h6>
-										<p> With a selection of Cheeses, Nuts, Roasted Peppers, Olives and Hummus </p>
-								<h1> Side Orders </h1> <br>
-								
-								<h6>Chunky Chips  3.45 <br>  <br>
-								Side Salad  4.25 <br> <br>
-								Sweet Potato Fries  3.45 <br> <br>
-								Cheesy Garlic Bread  3.45 <br> <br>
-								Buttered New Potatoes  3.45 <br> </h6>
+							
 
 
 							  </div>
 							  <div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Download</button>
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
 							  </div>
 							</div>
 						  </div>
-						</div></img>
+						</div>
 					</div>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-6" id="temp">
-					<div class="container " id="center">
+				
+			<div class="col-12 col-md-6 col-lg-4">
+					<div class="container">
+						<div class="container center">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#lightmenu">
+						<h1 class="menulinktext">PLATTERS  <br> & SIDES</h1> </button>
+						</div>
+					</div>
+					
 						
-						<img class="aboutimage center" src="placeholder.png" data-toggle="modal" data-target="#dinnermenu">
+						
 
 
 						<!-- Modal -->
-						<div class="modal fade" id="dinnermenu" tabindex="-1" role="dialog" aria-labelledby="dinnermenuTitle" aria-hidden="true">
-						  <div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
+						<div class="modal fade" id="lightmenu" tabindex="-1" role="dialog" aria-labelledby="brunchmenuTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content center">
 							  <div class="modal-header">
-								<h5 class="modal-title" id="dinnermenuTitle">Dinner Menu</h5>
+								<h5 class="modal-title" id="brunchmenuTitle">PLATTERS & SIDES</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
 							  <div class="modal-body">
-								<h1> Main Courses </h1> <br>
-									<h5> Seasons Chicken Pie  11.25 </h5>
-									<p> With Seasonal vegetables and Mashed Potatoes </p> <br>
-									<h5> Two Marinated Grilled Chicken Skewers   10.95 </h5>
-									<p> With Cajun Potato Wedges and Dressed Salad </p> <br>
-									<h5> Cod & Chips  11.95 </h5>
-									<p> With Homemade Tartare Sauce and Peas </p> <br>
-									<h5> Seasons Burger  11.95 </h5>
-									 <p> Brioche Bun, Chips, BBQ Sauce and Mature Cheddar </p> <br>
-									 <h5> Local Dressed Crab 14.50 </h5>
-									<p> With Farm Kitchen Bread, Lemon Mayonnaise and Dressed Salad </p> 
+								<h1>Light Bites, Platters & Side Orders </h1><br>
+								
+								
+
+								<h3 class="menusmall">
+										Hummus Dip £6.50</h3> <p> Toasted Seeds, Roasted Peppers, Pesto, Tortilla Wedges </p> <br> 
+										<h3 class="menusmall">Nachos  6.50 v </h3>
+										<p>With Guacamole, Salsa, Cheddar and crème Fraiche </p> <br>
+										<h3 class="menusmall">Seasons Quiche of The day  7.95 </h3>
+										<p> Served Hot or Cold, with Antipasti Pickles, Coleslaw, Dressed Salad and Bread </p> <br>
+										<h3 class="menusmall">Ploughman`s Salad  9.75 </h3>
+										<p>With Ham, Mature Cheese, Pickles, Coleslaw and Bread </p> <br>
+										<h3 class="menusmall">Fish Platter 9.50</h3>  
+										<p> With a Selection of Selection of Smoked Fish, Seafood, Farm Kitchen Bread and Dressed Salad </p> <br>
+										<h3 class="menusmall"> Mixed sharing platter  9.50 v </h3>
+										<p> With a selection of Anti Pasti Meats, Ham, Cheeses, Nuts, Peppers, Olives and Hummus </p> <br> 
+								<h1> Side Orders </h1> <br>
+								
+								<h3 class="menusmall">Chunky Chips  3.45 </h3>
+								<h3 class="menusmall">Side Salad  4.25</h3>
+								<h3 class="menusmall">Sweet Potato Fries  3.45 </h3>
+								<h3 class="menusmall">Cheesy Garlic Bread  3.45 </h3>
+								<h3 class="menusmall">Buttered New Potatoes  3.45 </h3>
+
 
 							  </div>
 							  <div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Save changes</button>
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
 							  </div>
 							</div>
 						  </div>
-						</div></img>
+						</div>
 					</div>
-				</div>
-				<div class="col-6 center" id="temp1">
-					<div class="container" id="center">
+			
+			
+				<div class="col-12 col-md-6 col-lg-4" >
+					<div class="container">
+						<div class="container center">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#dinnermenu">
+						<h1 class="menulinktext"> MAIN <br> COURSES</h1></button>
+						</div>
+					</div>
+						
+						
+
+
+						<!-- Modal -->
+						<div class="modal fade" id="dinnermenu" tabindex="-1" role="dialog" aria-labelledby="dinnermenuTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content center">
+							  <div class="modal-header">
+								<h5 class="modal-title" id="dinnermenuTitle">MAIN COURSES</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body">
+								<br>
+									<h3 class="menusmall">  Soup of the Day  6.25 </h3><br>
+									<h3 class="menusmall">  Aged Rump Steak 14.00</h3>
+									<p> With Gourmet Fries and Seasonal Vegetable </p><br>
+									<h3 class="menusmall"> Two Marinated Grilled Chicken Skewers   10.95 </h3>
+									<p> With Gourmet Fries and Dressed Salad </p><br>
+									<h3 class="menusmall">  Local Dressed Crab 14.50 </h3>
+									<p> With Farm Kitchen Bread, Lemon Mayonnaise and Dressed Salad </p> <br>
+									
+									<h3 class="menusmall">  Cod & Chips  11.95 </h3>
+									<p> With Homemade Tartare Sauce and Peas </p> <br>
+									<h3 class="menusmall">  Locally Smoked Haddock  12.00 </h3>
+									<p> With Parsley Sauce, Mash Potato and Seasonal Vegeables </p> <br>
+									<h3 class="menusmall">  Seasons Burger  11.95 </h3>
+									 <p> Brioche Bun, Chips, BBQ Sauce and Mature Cheddar </p> <br>
+									 <h3 class="menusmall">  Beef Lasagne 12.50 </h3>
+									 <p> Served with Garlic Bread and Salad </p> <br>
+									 <h3 class="menusmall">  Vegetarian Lasagne 10.50 </h3>
+									 <p> Served with Garlic Bread and Salad</p> <br>
+									 
+									 
+
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					</div>
+				
+				<div class="col-12 col-md-6 col-lg-4" >
+					<div class="container">
+						<div class="container center">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#dessertmenu">
+						<h1 class="menulinktext">DESSERT </h1></button>
+						</div>
+					</div>
 					
-						<img class="aboutimage" src="placeholder.png" data-toggle="modal" data-target="#dessertmenu">
+						
 
 
 						<!-- Modal -->
 						<div class="modal fade" id="dessertmenu" tabindex="-1" role="dialog" aria-labelledby="dessertmenuTitle" aria-hidden="true">
 						  <div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
+							<div class="modal-content center">
 							  <div class="modal-header">
-								<h5 class="modal-title" id="dessertTitle">Desserts</h5>
+								<h5 class="modal-title" id="dessertmenuTitle">DESSERT MENU</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
 							  <div class="modal-body">
-									<h1> Dessert Menu </h1> <br>
-									<h6> Bakewell Tart  4.95 </h6> 
+									<br>
+									<h3 class="menusmall"> Bakewell Tart  4.95 </h3> 
 									<p> With Vanilla Ice Cream </p> <br>
-									 <h6> Handcrafted Pecan Pie 4.95 </h6>
+									 <h3 class="menusmall"> Handcrafted Pecan Pie 4.95 </h3>
 									<p> With Double Cream </p> <br>
-									<h6> Seasons Elderflower Syrup Sponge 5.50 </h6>
+									<h3 class="menusmall"> Seasons Elderflower Syrup Sponge 5.50 </h3>
 									<p> With Fruit Compote, Clotted Cream </p> <br>
-									<h6> Gluten Free Dark Chocolate & Almond Torte  5.75 </h6>
+									<h3 class="menusmall"> Gluten Free Dark Chocolate & Almond Torte  5.75 </h3>
 									<p> With Chocolate Ice Cream and Nut Brittle </p> <br>
-									<h6> 3 Scoops of Ice Cream  4.95 (ask for flavour options) </h6> 
+									<h3 class="menusmall"> 3 Scoops of Ice Cream  4.95</h3> 
+									<p>(ask for flavour options) </p> 
 
 							  </div>
 							  <div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Download</button>
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
+							  </div>
+							</div>
+							
+					</div>
+							
+							
+							
+						  </div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 center" >
+					<div class="container ">
+						<div class="container center">
+						<button type="button" class="btn  btn-custom center menuimage" data-toggle="modal" data-target="#drinksmenu">
+						<h1 class="menulinktext"> DRINKS</h1></button>
+						</div>
+					</div>
+						
+						
+
+
+						<!-- Modal -->
+						<div class="modal fade" id="drinksmenu" tabindex="-1" role="dialog" aria-labelledby="drinkmenuTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<h5 class="modal-title" id="drinkmenuTitle">DRINKS MENU</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body">
+								
+								<h1> COFFEE </h1> <br>
+								
+								<table class="table table-default table-responsive">
+								  <thead>
+									<tr>
+									  <th scope="col">Coffee</th>
+									  <th scope="col">Regular</th>
+									  <th scope="col">Large</th>
+									  
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <th scope="row">Filter</th>
+									  <td></td>
+									  <td>2.45</td>
+									</tr>
+									<tr>
+										<th scope="row">Americano</th>
+										<td>2.45</td>
+										<td>2.95</td>
+									  
+									</tr>
+									<tr>
+										<th scope="row">Latte</th>
+										<td>2.60</td>
+										<td>3.25</td>
+									</tr>
+<tr>
+										<th scope="row">Cappuccino</th>
+										<td>2.60</td>
+										<td>3.25</td>
+									</tr>									
+									<tr>
+									    <th scope="row">Flat White</th>
+										<td>2.90</td>
+										<td>3.45</td>
+									</tr>
+									<tr>
+										<th scope="row">Mocha</th>
+									  <td>3.00</td>
+									  <td>3.65</td>
+									  </tr>
+									  <tr>
+									  <th scope="row">Espresso</th>
+									  <td>2.10</td>
+									  <td>2.95</td>
+									  </tr>
+									  <tr>
+										<th scope="row">Macchiato</th>
+									  <td>2.35</td>
+									  <td>2.95</td>
+									  </tr>
+									  <tr>
+									  <th scope="row">Babyccino</th>
+									  <td>75p</td>
+									 <td>1.00</td>
+									 </tr>
+									 <th scope="row">Hot Chocolate</th>
+									  
+									  <td></td>
+									  <td>3.65</td>
+									  </tr>
+									  <tr>
+									  <th scope="row">Child's Hot Chocolate</th>
+									  <td>2.60</td>
+									  <td></td>
+									  </tr>
+									  <tr>
+									  <th scope="row">Luxury Hot Chocolate (Whipped Cream and Mellows)</th>
+									  <td></td>
+									  <td>4.65</td>
+									</tr>
+								
+								
+								  </tbody>
+							</table>
+							
+									
+								<div class="container border4">
+									<div class="row">
+										<div class="col-12">	
+											<h2> Extras </h2>
+										</div>
+										<div class="col-6">
+											<h3  class="xtrasmall"> Coffee Shot 50p </h3>
+											<h3  class="xtrasmall"> Jug of Cream 50p </h3>
+										</div>
+										<div class="col-6">
+											<h3  class="xtrasmall"> Syrup Shot (ask for flavours) 50p</h3>
+											<h3  class="xtrasmall"> Soya, Almond or Goats Milk 20p </h3>
+										</div>
+									</div>
+								</div><br>
+									
+								<div class="container center">
+								<div class="row">
+										<div class="col-12">	
+											<h1> TEAS </h1>
+										</div>
+										<div class="col-6">
+											<h3  class="menusmall"> Pot for One 2.95 </h3>
+											
+										</div>
+										<div class="col-6">
+											<h3  class="menusmall"> Pot for Two 3.75</h3>
+											
+										</div>
+										<div class="col-12">
+											<p> Choose from: English Breakfast, Earl Grey, Red Bush, Green Tea, Lemon and Ginger, Mint, Camomile or Super Fruits </p>
+										</div>
+									</div>
+								</div>
+								<div class="container center">
+								<h1> COLD DRINKS</h1><br>
+								<h3 class="menufontcold">	Fruit Squash  2.00  </h3>
+								<h3  class="menufontcold">		Still or Sparkling Water  2.00 </h3>
+								<h3  class="menufontcold">		Apple Juice 2.95</h3>
+								<h3  class="menufontcold">		Orange Juice 2.95 </h3>
+								<h3  class="menufontcold">	    Coca Cola and Diet Coke  2.95</h3>
+								<h3 class="menufontcold">		Orange and Lemon Sparkling Press 2.95  </h3>
+								<h3  class="menufontcold">		Sparkling Elderflower 2.95 </h3>
+								<h3  class="menufontcold">		Cool Ginger Beer 2.95</h3>
+								<h3  class="menufontcold">		Raspberry Crush 2.95 </h3>
+								<h3  class="menufontcold">	    Sicilian Lemonade 2.95 </h3> <br> <br>
+								
+								<h2> Pint of Heineken Ice Cold Lager Or Curious Brew 4.50 </h2>
+								
+								</div>
+								
+								
+
+						
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-custom-brown" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-custom-brown">Download</button>
 							  </div>
 							</div>
 						  </div>
-						</div></img>
+						</div>
+					</div>
 					</div>	
 				</div>
 			</div>
-		</div>
-				
 		
 		
 		
-		</div>
-		<footer>
+		
+		
+		
 		<div class="container-fluid" id="footer">
 			<div class="row">
 				<div class="col-6">
-				FOOTER TEXT
+				<h1 class="footertext"> 3 The Waterfront </h1>
+				<h1 class="footertext"> Eastbourne</h1> 
+				<h1 class="footertext">BN23 5UZ </h1>
+				<h1 class="footertext"> England</h1>
+				
 				</div>
 				<div class="col-6">
-				FOOTER TEXT
+				<h1 class="footertext"> 01323 470704 </h1>
+				<br>
+				<a class="footerlink" href="https://www.illy.com/en-us/company">
+				Illy Coffee Partners </a><br>
+				<a class="footerlink" href=""> Our Policy</a>
 				</div>
 			</div>
 		</div>
-	</footer>
+		
+
 	
-	
-	<script>
+<script>
+
+
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("navigation");
 var sticky = navbar.offsetTop;
+
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky","brown","logohidden");
+	indexcards.ClassList.add("")
+	
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove("sticky","brown","logohidden");
+	
   }
+  
 }
 </script>
+
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
