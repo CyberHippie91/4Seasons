@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<HTML Lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.ico">
+    <title> 4 Seasons Brasserie  </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="4seasons.css">
+    <script src="4seasons.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<div class="wrapper fade-in">
+    <!-----------------------------------NAV BAR------------------------------------>
+    <div class="jumbotron jumbotron-fluid" id="header">
+        <!-----------RESPONSIVE/COLLAPSIBLE NAVBAR--------------------->
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg" id="navigation">
+            <button class="navbar-toggler navbar-toggler-right custom-nav-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <img class="justify-content-end d-block d-sm-block d-md-block d-lg-none" src="images/lgsml.png" width="70" height="35" alt="logo">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!---------------------------NAV LINKS---------------------->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active fade-in homeni">
+                        <a href="index.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item fade-in aboutni">
+                        <a href="construction.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item fade-in menuni">
+                        <a href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item fade-in eventni">
+                        <a href="event.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item fade-in partiesni">
+                        <a href="parties.html">PARTIES</a>
+                    </li>
+                    <li class="nav-item fade-in galleryni">
+                        <a href="g1.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item fade-in contactni">
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <!------MOBILE RESPONSIVE LOGO------>
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item d-none d-md-block  d-xl-block logohidden">
+                        <img src="images/lgsml.png" width="70" height="35" alt="logo">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<!---------------------------------LOGO-------------------------------->
+        <div class="row logorow float-left">
+            <div class="col-12 logoholder">
+                <div class="container fade-in logoimage ">
+                    <img src="images/LogoAlpha.png" id="logotext">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------END OF NAV BAR-------------------------->
+<!----------------------------------- XMAS MENU BAR ------------------------>
+    <div class="container-fluid xmasbanner">
+        <a href="menu.html" class="btn btn-primary btn-custom-xmas" role="button">XMAS MENU </a>
+    </div>
+<!-----------------------------------CAROUSEL-------------------------------->
+    <div  class="fade-in carousel slide" id="indexcarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#indexcarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#indexcarousel" data-slide-to="1"></li>
+            <li data-target="#indexcarousel" data-slide-to="2"></li>
+            <li data-target="#indexcarousel" data-slide-to="3"></li>
+            <li data-target="#indexcarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!------------------------1ST BANNER AD---------------------->
+            <div class="carousel-item active ">
+                <div class="d-block w-100 indexcarouselimg">
+                    <div class="carousel-caption">
+                        <!------------------BANNER CONTENT---------------->
+                        <div class="row ">
+                            <div class="container d-md-none d-lg-block">
+                                <img src="images/illy.png" class="illy">
+                            </div>
+                            <div class="col-12">
+                                <h2 class="bannertext">SPECIALITY COFFEE & TEA</h2>
+                                <h3 class="bannertext d-none d-sm-block"> BAKERY MENU AVAILABLE</h3>
+                                <h4 class="bannertext">SELECTION OF HOMEMADE CAKES AND TRAY BAKES </h4>
+                                <div class="d-none d-sm-block">
+                                    <a href="menu.html" class="btn btn-primary btn-custom-blueoutline" role="button">VIEW MENU </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------2ND BANNER AD---------------------->
+            <div class="carousel-item">
+                <img class="d-block w-100 indexcarouselimg3 ">
+                <div class="carousel-caption">
+                    <!------------------BANNER CONTENT---------------->
+                    <div class="row align-items-center">
+                        <div class="d-none d-md-block col-5 col-md-4 col-lg-4 col-xl-4">
+                            <img class="card-img" id="eventlogo" src="images/eventlogo.jpg">
+                        </div>
+                        <!-------------LARGER DEVICES-------------->
+                        <div class="col-7 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="photobannerad d-none d-md-block"> MRS YARRINGTON'S MUSIC CLUB <br> PRESENTS </h4>
+                            <h2 class="liveat d-none d-md-block"> JIMMY ROBINSON   </h2>
+                           
+                            <h4 class="photobannerad d-none d-md-block "> 14TH OCTOBER </h4>
+                        </div>
+                        <!-------------SMALLER DEVICES-------------->
+                        <div class="d-sm-block d-md-none col-12">
+                            <h2 class="photobannerad d-sm-block d-md-none"> LIVE @ 4 SEASONS <br> </h2>
+                            <h2 class="liveat d-sm-block d-md-none">  JIMMY ROBINSON  </h2>
+                            <h3 class="photobannerad d-sm-block d-md-none"> 14TH OCTOBER </h3>
+                        </div>
+                        <!-------------BUTTON LINK-------------->
+                        <div class="col-12 ">
+                            <a href="event.html" class="btn btn-primary btn-custom-brown" role="button">SEE MORE </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------3RD BANNER AD ------------------------>
+            <div class="carousel-item">
+                <div class="d-block w-100 indexcarouselimg6"   alt="Third slide">
+                    <div class="carousel-caption">
+                        <!-----------BANNER CONTENT --------->
+                        <div class="row align-items-center">
+                            <div class="col-12 ">
+                                <!-----------SMALLER DEVICES--------->
+                                <h2 class="christmastitle d-xs-block d-sm-block d-md-none"> CHRISTMAS PARTIES </h2>
+                                <!-----------LARGER DEVICES--------->
+                                <h1 class="christmastitle d-none d-xs-none d-sm-none d-md-block">CHRISTMAS PARTIES</h1><br>
+                                <h4 class="christmascontent">BOOK YOUR XMAS CELEBRATION WITH US! </h4>
+                                <h4 class="christmascontent d-none d-xs-none d-sm-none d-md-block">CHRISTMAS MENU AVAILABLE! </h4><br>
+                                <p class="christmascontent d-none d-xs-none d-sm-none d-md-block">CALL US NOW TO BOOK</p>
+                            </div>
+                            <div class="col-12 ">
+                                <a href="menu.html" class="btn btn-primary btn-custom-brown" role="button">XMAS MENU </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------4TH BANNER AD------------------------>
+            <div class="carousel-item">
+                <div class="d-block w-100 indexcarouselimg2"   alt="Fourth slide">
+                    <div class="carousel-caption">
+                        <!------------------BANNER CONTENT---------------->
+                        <div class="row align-items-center">
+                            <div class="col-12 d-none d-md-block ">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <!-------------SMALLER DEVICES-------------->
+                                <h1 class="liveat d-xs-block d-sm-block d-md-none"> SUNDAY ROAST </h1>
+                                <!-------------LARGER DEVICES-------------->
+                                <h1 class="liveat d-none d-xs-none d-sm-none d-md-block">SUNDAY ROAST</h1><br>
+                                <!------------ALL VIEWPORTS---------------->
+                                <h3 class="liveat">NOW SERVING 12 - 6<br></h3><br>
+                                <!-------------LARGER DEVICES-------------->
+                                <p class="photobannerad d-none d-xs-none d-sm-none d-md-block">BOOK NOW! DON'T MISS OUT!</p>
+                            </div>
+                            <!-------------BUTTON LINK-------------->
+                            <div class="col-12 ">
+                                <a href="menu.html" class="btn btn-primary btn-custom-brown" role="button">SEE MORE </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <!----------------------------5TH BANNER AD------------------------>
+               <div class="carousel-item">
+                    <div class="d-block w-100 indexcarouselimg5">
+                        <div class="carousel-caption">
+                            <!------------------BANNER CONTENT---------------->
+                            <div class="halfpricetitle center">
+                                <h3 class="liveat"> BUY 1 MEAL <br> AND <br> GET THE SECOND HALF PRICE! </h3>
+                                <h4 class="bannertext"> JOIN US BETWEEN 6 - 7.30</h4>
+                                <h5 class="bannertext"> EXCLUDES TUESDAYS  </h5>
+                            </div>
+                            <br>
+                            
+                            <!-------------BUTTON LINK-------------->
+                            <div class="col-12 ">
+                                <a href="menu.html" class="btn btn-primary btn-custom-brown" role="button">VIEW MENU </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            <!----------------------------6TH BANNER AD------------------------>
+            <div class="carousel-item">
+                <div class="d-block w-100 indexcarouselimg4">
+                    <div class="carousel-caption">
+                        <!------------------BANNER CONTENT---------------->
+                        <div class="livetitle center">
+                            <h2 class="liveat"> BOOK YOUR PARTY WITH US </h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <h3 class="photobannerad">CATERING FOR ALL OCCASIONS </h3>
+                                <h4 class="photobannerad1-inverse1 d-none d-md-block">IN THE PERFECT LOCATION  </h4>
+                                <h5 class="photobannerad1-inverse1">FREE WIFI </h5>
+                                <br>
+                            </div>
+                        </div>
+                        <!-------------BUTTON LINK-------------->
+                        <div class="col-12 ">
+                            <a href="parties.html" class="btn btn-primary btn-custom-brown" role="button">BOOK NOW </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-------------------------CAROUSEL PREV/NEXT INDICATORS ---------------------------->
+            <a class="carousel-control-prev" href="#indexcarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#indexcarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!------------------------END OF CAROUSEL -------------------------->
+        </div>
+    </div>
+    <!----------------------------------------- CARD SECTION --------------------------------->
+    <div class="container-fluid center" id="indexsection3">
+        <div class="row center">
+            <!--------------------------------MENU CARD------------------------------>
+            <div class="col-md-6 center" id="temp">
+                <div class="center card animation-element slide-left indexcards"  style="width: 18rem;">
+                    <a class="cardlink" href="menu.html">
+                        <img class="card-img" src="images/s5.jpg" alt="Card image cap">
+                        <div class="card-img-overlay" >
+                            <h5 class="cardlinktext card-title text-center "> MENU</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--------------------------------EVENT CARD------------------------------>
+            <div class="col-md-6 " id="temp1">
+                <div class="card animation-element slide-left indexcards" id="menucardindex" style="width: 18rem;" >
+                    <a href="event.html">
+                        <img class="card-img" src="images/s4.jpg" alt="Card image cap">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-center cardlinktext">EVENTS</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------- ABOUT US SECTION --------------------------------->
+    <div class="jumbotron jumbotron-fluid" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <h1 class="fade-in" > OUR TIMES</h1><br>
+                    <h3 class="" id="para2">OPEN 7 DAYS A WEEK </h3>
+                    <h3>9AM - 9PM </h3><br>
+                    <h3>SPECIAL OPENING TIMES FOR SUNDAYS</h3>
+                    <h3>9AM - 7PM</h3><br>
+                    <br>
+                    <!--------------------------------- TEXT TYPE ANIMATION ------------------->
+                    <!-------LARGER DEVICES------->
+                    <h2 class=" d-none d-xl-block"> SERVING YOU THE BEST
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "COFFEE!", "CAKE!", "SMOOTHIES!", "SANDWICHES!", "ATMOSPHERE!" ]'></span>
+                    </h2>
+                    <!-------SMALLER DEVICES------->
+                    <h2 class="d-block d-lg-none"> THE BEST <br>
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "COFFEE!", "CAKE!", "SMOOTHIES!", "SANDWICHES!", "ATMOSPHERE!" ]'></span>
+                    </h2>
+                    <br>
+                    <p> WE AT 4 SEASONS PRIDE OURSELVES ON GIVING YOU GREAT QUALITY FOOD AT A GREAT PRICE, FRESH SPECIALITY COFFEE AND A WARM FRIENDLY ENVIRONMENT.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------SOCIAL MEDIA ICON SECTION ---------------------------------------->
+    <div class="container-fluid" id="socialmedia">
+        <div class="row" >
+            <!----FACEBOOK---->
+            <div class="col-xs-3 mx-auto">
+                <a href="https://www.facebook.com/4SeasonsBrasserie">
+                    <i class="fab fa-facebook-square fa-3x">
+                    </i>
+                </a>
+            </div>
+            <!----TWITTER---->
+            <div class="col-xs-3 mx-auto ">
+                <a href="">
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                </a>
+            </div>
+            <!----INSTAGRAM---->
+            <div class="col-xs-3 mx-auto">
+                <a href="">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+            </div>
+            <!----LINKED IN---->
+            <div class="col-xs-3 mx-auto">
+                <a href="">
+                    <i class="fas fa-share-square fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------FOOTER-------------------------->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <!--1st COLUMN-->
+            <div class="col-6">
+                <h1 class="footertext"> 3 The Waterfront </h1>
+                <h1 class="footertext"> Eastbourne</h1>
+                <h1 class="footertext">BN23 5UZ </h1>
+                <h1 class="footertext"> England</h1>
+            </div>
+            <!--2nd COLUMN-->
+            <div class="col-6">
+                <h1 class="footertext"> 01323 470704 </h1>
+                <br>
+                <a class="footerlink" href="https://www.illy.com">
+                    Illy Coffee Partners </a><br>
+                <a class="footerlink" href=""> Our Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------END OF CONTENT-------------------->
+<!----------------WRAPPER CLOSE---------------------->
+</div>
+<!----------------WRAPPER CLOSE---------------------->
+
+<!-------------------------------STICKY NAVBAR SCRIPT---------------------->
+<script>
+    window.onscroll = function() {myFunction()};
+//VARIABLE DECLARATION//
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+//FUNCTION - ON SCROLL ADD CLASSES  //
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky","brown","logohidden");
+        } else {
+            navbar.classList.remove("sticky","brown","logohidden");
+        }
+    }
+</script>
+<!----------------------------SCRIPT LINKS--------------------------------->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="4seasons.js"></script>
+<!----------------------------SCRIPT LINKS--------------------------------->
+</body>
+</html>
