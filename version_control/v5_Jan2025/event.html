@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+    <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon"
+              type="image/png"
+              href="images/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>4 Seasons</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!--------------------------------SCRIPTS----------------------------------->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a15b5303d1.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="4seasons.js"></script>
+        <link rel="stylesheet" type="text/css" href="4seasons.css">  
+    </head>
+    <body>
+        <div class="wrapper ">
+<!------------------------------------------HEADER------------------------------------->
+            <div class="header ">
+                <div class="header-overlay">
+            <!---------------------NAVBAR-------------------------------------->
+                <nav class="navbar sticky-top navbar-expand-lg navbar-toggleable-lg" id="navigation">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler custom-nav-toggler" id="toggleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>                    
+                    <a class="navbar-brand " href="#">
+                        <img class="d-block d-sm-block d-md-block d-lg-none" src="images/lgsml.png" width="70" height="35" alt="logo">
+                    </a>    
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <!---------------------------NAV LINKS---------------------->
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item   homeni">
+                                    <a href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item  menuni">
+                                    <a href="menu.html">MENU</a>
+                                </li>
+                                <!--<li class="nav-item fade-in partiesni">
+                                    <a href="construction.html">PARTIES</a>
+                                </li>
+                                <li class="nav-item fade-in harbournightsni">
+                                    <a href="construction.html">HARBOUR NIGHTS</a>
+                                </li>-->
+                                <li class="nav-item active partiesni">
+                                    <a href="event.html" aria-current="page">MURDER MYSTERY</a>
+                                </li>
+                                <li class="nav-item  contactni">
+                                    <a href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                             <!------MOBILE RESPONSIVE LOGO------>
+                            <a class="navbar-brand ms-auto logo-brand  d-none d-md-block  d-xl-block logohidden" href="#">
+                                <img src="images/lgsml.png" width="70" height="35" alt="logo">
+                            </a>
+                    </div>
+                </nav>
+                
+            
+            <!---------------------------------LOGO-------------------------------->
+                <div class=" logorowlg d-none d-lg-block d-xl-block d-xxl-block">
+                    <img src="images/LogoAlpha.png" id="logotext">
+                </div>
+                <div class="logorowmd d-none d-md-block d-lg-none d-xl-none d-xxl-none">
+                    <img src="images/LogoAlpha.png" id="logotext">
+                </div>
+                <div class=" logorowsm d-block d-sm-block d-md-none d-lg-none ">
+                    <img src="images/LogoAlpha.png" class="" id="logotext">
+                </div>
+<!------------------------------------END OF HEADER--------------------------------------->    
+          </div> </div>
+          
+           <!----------------------------MENU TITLE---------------------------->
+           <div class="fade-in menuwrapper center">
+                <div class="title-sml">
+                    <h2 class="seasons-brown" id="welcome_msg"> MURDER MYSTERY SUPPER </h2>
+                <br>
+                <h4 class="seasons-brown-noshadow"> TICKETS £29.50, INCLUDING A 2 COURSE MEAL</h4>
+                <h5 class="seasons-brown-noshadow">CALL 01323 470704 TO BOOK</h5><br></div>
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-sm-12 center ">
+                       
+                        <div class="container  center">
+                            <img class="card-img  responsive  "  src="images/MMJan2025-front.jpg" alt="Card image cap" href="event.html">
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 col-sm-12 menucol center" id="mysterymenu-img">
+						<img class="responsive menuimg" data-bs-toggle="modal" data-bs-target="#mysteryModal"  src="images/menu/mysterymenu.png">
+					</div>
+                </div>
+            
+            </div>
+            <div class="modal fade" id="mysteryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl ">
+                    <div class="modal-content menumodal">
+                        <div class="modal-header">
+                            <h4 class="modal-title seasons-white">MURDER MYSTERY MENU</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <img class="responsive"  src="images/menu/mysterymenu.png">
+                        <div class="modal-footer">
+                            <a class="btn btn-custom-blue  center" href="images/menu/mysterymenu.png" download>
+                                DOWNLOAD MYSTERY MENU
+                            </a>           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <!----------------------------------- FOOTER -------------------------------------------------->
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <!--1st COLUMN-->
+                    <div class="col-6">
+                        <h1 class="footertext"> 3 The Waterfront </h1>
+                        <h1 class="footertext"> Eastbourne</h1>
+                        <h1 class="footertext">BN23 5UZ </h1>
+                        <h1 class="footertext"> England</h1>
+                    </div>
+                    <!--2nd COLUMN-->
+                    <div class="col-6">
+                        <h1 class="footertext"> 01323 470704 </h1>
+                        <a class="footerlink" href="contact.html"> Email Us </a><br>
+                        <a class="footerlink" href="https://www.illy.com">
+                            Illy Coffee Partners </a><br>
+                        <a class="footerlink" href=""> Our Policy</a>
+                    </div>
+                </div>
+            </div>         
+<!----------------------------------- END OF CONTENT -------------------------------------------------->
+        </div>
+    </body>
+
+<!-------------------------------STICKY NAVBAR SCRIPT---------------------->
+
+<script>
+    window.onscroll = function() {myFunction()};
+//VARIABLE DECLARATION//
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+//FUNCTION - ON SCROLL ADD CLASSES  //
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky","brown");
+        } else {
+            navbar.classList.remove("sticky","brown");
+        }
+    }
+    
+</script> 
+<script>
+ $(document).ready(function(){
+  $("#toggleBtn").click(function(){
+    $("#navbarSupportedContent").toggleClass("navCollaspe");
+  });
+});
+</script>

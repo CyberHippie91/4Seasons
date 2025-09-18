@@ -34,9 +34,6 @@ __MACOSX/
 *.pdf
 *.psd
 
-# Version control backup folders
-
-version_control/v5_Jan2025/
 
 # System files
 Thumbs.db
