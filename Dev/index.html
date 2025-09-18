@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+    <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon"
+                type="image/png"
+                href="images/favicon.ico">  <!--Favicon-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>4 Seasons</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+                rel="stylesheet" 
+                integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+                crossorigin="anonymous">  <!--Bootstrap-->
+        <script src="https://kit.fontawesome.com/a15b5303d1.js" crossorigin="anonymous"></script>  <!--Font Awesome-->
+        <link rel="stylesheet" type="text/css" href="4seasons.css">  <!--4 Seasons CSS-->
+    </head>
+    <body>
+        <div class="wrapper fade-in">
+<!------------------------------------------HEADER------------------------------------->
+            <div class="header">
+                <div class="header-overlay">
+<!------------------------------------------NAVBAR------------------------------------->
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-lg" 
+                         id="navigation">
+                        <div class="container-fluid">
+                            <!--------------------RESPONSIVE LOGO-------------------->
+                            <!--------MOBILE LOGO------->                   
+                            <a class="navbar-brand d-block d-sm-block d-md-block d-lg-none" href="#">
+                                <img class="d-block d-sm-block d-md-block d-lg-none" 
+                                     src="images/lgsml.png" width="70" height="35" alt="logo"> 
+                            </a>
+                            <a class="navbar-brand d-block d-sm-block d-md-block d-lg-none" href="#">
+                                4 SEASONS BRASSERIE
+                            </a>
+                            <!--------DESKTOP LOGO------> 
+                            <a class="navbar-brand logo-brand fade-in 
+                                        d-none d-xl-block" href="#">
+                                <img src="images/lgsml.png" width="70" height="35" alt="logo">  4 SEASONS BRASSERIE
+                            </a>
+                            <!----------------CUSTOM HAMBURGER TOGGLER---------------> 
+                            <button class="navbar-toggler custom-nav-toggler" 
+                                    id="toggleBtn" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#navbarSupportedContent" 
+                                    aria-controls="navbarSupportedContent" 
+                                    aria-expanded="false" 
+                                    aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> 
+                            <!---------------------------COLLAPSE HAMBURGER---------------------->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <!-------------------------------NAV LINKS--------------------------->
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item active ">
+                                        <a href="index.html" aria-current="page">HOME</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="menu.html">MENU</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="event.html">MURDER MYSTERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html">CONTACT</a>
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </nav>
+<!------------------------------------END OF HEADER------------------------------------->
+                </div>
+            </div> 
+<!-------------------------------------MAIN CONTENT------------------------------------->
+            <!----------------------XMAS BANNER------------------------
+            <div class="xmasbanner">
+                <a class="btn btn-custom-brown center" href="">CHRISTMAS WITH US</a>      
+            </div>-->
+            <!--------------------ABOUT US SECTION--------------------->
+            <div class="aboutus-section">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card aboutus-card text-center">
+                            <img src="images/s1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Welcome to 4 Seasons Brasserie</h4>
+                                <p class="card-text">A cozy spot in the heart of the harbour, we bring people together over comforting dishes, 
+                                    rich coffee, and warm hospitality. Whether it’s your first visit or your favourite routine,
+                                     you’ll always feel at home with us. <br>We’re open every day from 9:00 AM to 4:00 PM — drop in anytime.</p>
+                                <a class="btn btn-custom-brown-blue center" href="">CONTACT US</a>   
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card aboutus-card text-center">
+                        <img src="images/about.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Classic Flavours, Crafted with Care</h4>
+                                <p class="card-text">From indulgent traybakes and cakes to comforting mains like cod & chips or beef & ale pie, 
+                                    there’s something for everyone at 4 Seasons Brasserie. <br>
+                                    Gather with friends over our generous 
+                                    sharing platters, or join us on Sundays for a traditional roast dinner.</p>
+                                <a class="btn btn-custom-brown-blue center" href="">MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card aboutus-card text-center">
+                        <img src="images/mm.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Dine, Discover, and Experience</h4>
+                                <p class="card-text">Make your evening unforgettable with our special events — 
+                                   including our signature Murder Mystery dinners. 
+                                   A perfect blend of great food, laughter, and a touch of intrigue.
+                                   <br>Want a private night of your own? Book your own evening with us 
+                                   and create a memorable experience!</p>
+                                <a class="btn btn-custom-brown-blue center" href="">EVENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------CAROUSEL------------------------>
+            <div class="fade-in carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>   
+                </div>
+                <div class="carousel-inner">
+                <!-------------------------1ST ADVERT WRAPPER CONTENT---------------------->
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 indexcarouselimg1">
+                            <div class="carousel-caption">
+                                <!------------------1ST ADVERT CONTENT---------------->
+                                <div class="row carousel-overlay">
+                                    <div class="container ">
+                                        <img src="images/illy.png" class="illy">
+                                    </div>
+                                    <div class="col-12"> <br>
+                                        <h2 class="seasons-white">SPECIALITY COFFEE & TEA</h2>
+                                        <h3 class="seasons-white d-none d-lg-block "> BAKERY MENU AVAILABLE</h3>
+                                        <h4 class="seasons-white">SELECTION OF HOMEMADE CAKES AND TRAY BAKES </h4>
+                                        <div class="container">
+                                            <a class="btn btn-custom-brown" href="menu.html">
+                                                VIEW MENU
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                <!--------------------------------END OF 1ST ADVERT------------------------>             
+                <!--------------------------------2ND ADVERT WRAPPER CONTENT--------------->
+                   <div class="carousel-item">
+                        <div class="d-block w-100 indexcarouselimg2">
+                            <div class="carousel-caption">
+                                <!------------------2ND ADVERT CONTENT---------------->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="seasons-brown">OPEN 9AM TO 4PM </h2>
+                                        <h3 class="seasons-brown "> FOR GREAT FOOD AND ATMOSPHERE <br> </h3>
+                                        <h4 class="seasonsmedium-brown-noshadow d-none d-sm-none d-md-block">    We look forward to seeing you! </h4>
+                                        <h5 class="seasonsmedium-brown-noshadow"> Times are subject to change on short notice</h5><br>
+                                        <div class="container">
+                                            <a class=" btn btn-custom-brown-blue  center" href="menu.html">
+                                                VIEW MENU
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--------------------------------END OF 2ND ADVERT------------------------>
+                <!--------------------------------3RD ADVERT WRAPPER CONTENT------------------------>
+                     <div class="carousel-item">
+                        <div class="d-block w-100 indexcarouselimg3">
+                            <div class="carousel-caption">
+                            <!----------------3RD ADVERT CONTENT---------------->
+                                <div class="row align-items-center carousel-overlay">
+                                    <!-----------LARGER DEVICES-------------->
+                                    <div class="d-none d-sm-none d-md-block">
+                                        <br><h2 class=" seasons-white d-none d-sm-none d-md-block"> MURDER MYSTERY SUPPER!</h2>
+                                        <h3 class="seasons-white d-none d-sm-none d-md-block"> 14TH OF NOVEMBER  </h3>
+                                        <h4 class=" seasons-white d-none d-sm-none d-md-block"> £30.00 INCLUDES 2 COURSES  </h4>
+                                        <h5 class=" seasons-white d-none d-sm-none d-md-block  ">TAKING BOOKINGS NOW</h5>
+                                            
+                                    </div>
+                                    <!-----------SMALLER DEVICES------------->
+                                    <div class="col-12 d-block d-md-none">
+                                        <h2 class="seasons-white d-block d-md-none"> MURDER MYSTERY 14TH NOVEMBER </h2>
+                                        <h4 class="seasons-white d-block d-md-none  ">£30.00 INCLUDES 2 COURSES</h4>
+                                        <div class="container d-block d-md-none "><br> 
+                                        </div>
+                                    </div>
+                                    <!-----------BUTTON LINK-------------->
+                                    <div class="col-12 ">
+                                        <a href="event.html" class="btn btn-primary btn-custom-brown" role="button">SEE MORE</a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--------------------------------END OF 3RD ADVERT------------------------>
+                <!--------------------------------4TH ADVERT WRAPPER CONTENT------------------------>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 indexcarouselimg4"   alt="Fourth slide">
+                            <div class="carousel-caption">
+                                <!------------------4TH ADVERT CONTENT---------------->
+                                <div class="row align-items-center">
+                                    <div class="col-12 d-none d-md-block ">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-12">
+                                        <!-------------SMALLER DEVICES-------------->
+                                        <h1 class="seasonsmedium-brown-noshadow d-xs-block d-sm-block d-md-none"> SUNDAY ROAST </h1>
+                                        <!-------------LARGER DEVICES-------------->
+                                        <h1 class="seasons-brown-noshadow d-none d-xs-none d-sm-none d-md-block">SUNDAY ROAST</h1>
+                                        <!------------ALL VIEWPORTS---------------->
+                                        <h3 class="seasons-brown-noshadow">NOW SERVING 12 - 4<br></h3>
+                                        <!-------------LARGER DEVICES-------------->
+                                        <h4 class="seasonsmedium-brown-noshadow d-none d-xs-none d-sm-none d-md-block">BOOK NOW! DON'T MISS OUT!</h4><br>
+                                    </div>
+                                    <!-------------BUTTON LINK-------------->
+                                    <div class="col-12 ">
+                                        <a href="menu.html" class="btn btn-primary btn-custom-brown-blue" role="button">VIEW MENU</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--------------------------------END OF 4TH ADVERT------------------------>
+                <!--------------------------------5TH ADVERT WRAPPER CONTENT------------------------>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 indexcarouselimg5">
+                            <div class="carousel-caption">
+                                <!------------------5TH ADVERT CONTENT---------------->
+                                <div class="carousel-overlay">   
+                                    <div class="seasons-white center">
+                                        <h2 class="seasons-white"> BOOK YOUR PARTY WITH US </h2>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <h3 class="seasons-white">CATERING FOR ALL OCCASIONS </h3>
+                                            <h4 class="seasons-white d-none d-md-block">IN THE PERFECT LOCATION  </h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <!-------------BUTTON LINK-------------->
+                                    <div class="col-12 ">
+                                        <a href="contact.html" class="btn btn-primary btn-custom-white" role="button">CONTACT US</a>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+            <!-------------------------CAROUSEL PREV/NEXT INDICATORS ---------------------------->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!------------------------EVENT SECTION-------------------->
+            <div class="event-section"> 
+                <div class="card eventcard text-center"> <!----1ST CARD MURDER MYSTERY---->
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="images/posters/murderMystery/leafletFront-nov2025.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-12 col-md-8 card-body">
+                            <h3 class="card-title">MURDER MYSERTY SUPPER</h3>
+                            <h4 class="card-title">7PM, 14TH NOVEMBER</h4>
+                            <br>
+                            <p class="card-text">Step into a night of laughter, intrigue, and classic whodunnit fun. 
+                                                Carry-On meets Christie combines cheeky comedy with suspense as you 
+                                                and your tablemates work together to unravel the mystery. 
+                                                Follow the clues, question the suspects, and race to crack the case — 
+                                                the first table to solve the crime wins a bottle of bubbly to 
+                                                celebrate their sleuthing skills.</p><br>
+                            <a href="#" class="btn btn-primary btn-custom-brown-blue">CLICK HERE TO READ MORE</a>
+                        </div>                  
+                    </div>
+                </div>
+                <!----2ND CARD XMAS BOOKING / VISIBLE ON MD + ABOVE---->
+                <div class="d-none d-md-block card eventcard text-center"> 
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 card-body event-card-body">
+                            <h3 class="card-title">CHRISTMAS PARTIES AT 4 SEASONS</h3>
+                            <h4 class="card-title">TAKING BOOKINGS NOW</h4>
+                            <br>
+                            <p class="card-text">Celebrate the festive season in style with us! 
+                                Choose our private function room for an exclusive party space, 
+                                or enjoy your celebrations in the restaurant with its warm, 
+                                welcoming atmosphere. For just £19.95 per person, indulge in a delicious 
+                                Christmas menu — plus every guest receives a complimentary spritzer on arrival. 
+                                Book your party today and let us take care of the cheer!</p><br>
+                            <a href="#" class="btn btn-primary btn-custom-brown-blue">CONTACT US</a>
+                        </div> 
+                        <div class="col-12 col-md-4">
+                            <img src="images/posters/xmasLeaflet.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>                 
+                    </div>
+                </div> 
+                <!----2ND CARD XMAS BOOKING / VISIBLE ON SM + BELOW---->
+                <div class="d-block d-sm-block d-md-none card eventcard text-center">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="images/posters/xmasLeaflet.jpg" class="img-fluid rounded-start" alt="...">
+                        </div> 
+                        <div class="col-12 col-md-8 card-body event-card-body">
+                            <h3 class="card-title">CHRISTMAS PARTIES AT 4 SEASONS</h3>
+                            <h4 class="card-title">TAKING BOOKINGS NOW</h4>
+                            <br>
+                            <p class="card-text">Celebrate the festive season in style with us! 
+                                Choose our private function room for an exclusive party space, 
+                                or enjoy your celebrations in the restaurant with its warm, 
+                                welcoming atmosphere. For just £19.95 per person, indulge in a delicious 
+                                Christmas menu — plus every guest receives a complimentary spritzer on arrival. 
+                                Book your party today and let us take care of the cheer!</p><br>
+                            <a href="#" class="btn btn-primary btn-custom-brown-blue">CONTACT US</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="card eventcard text-center"><!----3RD CARD SUNDAY ROAST---->
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="images/posters/sundayRoast.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-12 col-md-8 card-body">
+                            <h3 class="card-title">SUNDAY ROAST DINNERS AT 4 SEASONS BRASSERIE</h3>
+                            <h4 class="card-title">TAKING BOOKINGS NOW</h4>
+                            <br>
+                            <p class="card-text">Sundays are made for roasts — and at 4 Seasons Brasserie, 
+                                                we serve them just the way you love. Choose from chicken, pork, 
+                                                beef, lamb, or a hearty vegetarian option, all accompanied by 
+                                                golden roast potatoes, fresh seasonal vegetables, rich gravy, 
+                                                and all the trimmings. Gather family and friends and make 
+                                                Sunday the tastiest day of the week.</p><br>
+                            <a href="#" class="btn btn-primary btn-custom-brown-blue">CONTACT US</a>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------------END OF MAIN CONTENT--------------------------------->
+            <!-----------------------FOOTER SECTION-------------------->
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <!--1st COLUMN-->
+                    <div class="col-6">
+                        <h1 class="footertext"> 3 THE WATERFRONT </h1>
+                        <h1 class="footertext"> EASTBOURNE</h1>
+                        <h1 class="footertext">BN23 5UZ </h1>
+                        
+                    </div>
+                    <!--2nd COLUMN-->
+                    <div class="col-6">
+                        <h1 class="footertext"> 01323 470704 </h1>
+                        <h1 class="footerlink" href="contact.html"> CONTACT US </h1>
+                        <h1 class="footerlink" href="https://www.illy.com">
+                            ILLY COFFEE PARTNERS </h1>
+                    </div>
+                </div>
+            </div>  
+<!------------------------------------------SCRIPTS------------------------------------->    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous">
+        </script>
+        <script src="4seasons.js"></script>
+    </body>
+</html>

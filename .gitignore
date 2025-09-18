@@ -1,0 +1,46 @@
+# Mac OS system files
+.DS_Store/
+__MACOSX/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.~*
+
+# Image editing / design software files
+*.kra
+*.xd
+*.xcf
+*.ai
+*.psd
+
+# Node / npm / other dev directories (if any)
+node_modules/
+dist/
+build/
+
+# Log files
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore old versions
+version_control/
+version_control/v1/
+version_control/v2/
+version_control/v3/
+version_control/v4/
+version_control/v5/
+
+# Ignore Docs and Misc
+Doc/
+Misc/

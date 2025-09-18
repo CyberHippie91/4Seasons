@@ -1,0 +1,492 @@
+body, html {
+    height: 100%;
+	width:auto;
+	letter-spacing: 0;
+	font-family:seasons;
+	background-color:black;
+    font-size: 1rem;
+}
+.wrapper {
+	height:auto;
+	width:auto;
+	background-color:#3C3427;
+}
+/*******************SCROLL BAR***********************/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background: #3C3427;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #01B1AF;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+/******************HEADING SIZING**********************/
+h1 {
+	font-size:3rem;
+}
+h2 {
+	font-size:2rem;
+}
+h3 {
+    font-size:1.5rem;
+}
+	
+h4 {
+	font-size:1rem;
+}
+h5 {
+	font-size:1rem;
+}
+p  {
+    font-size:1rem;
+}
+/*******************BREAKPOINTS FONT SIZES*************/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  h1 {font-size:3rem;} /*1rem = 16px*/
+  h2 {font-size:2rem;}
+  h3 {font-size:2rem;}
+  h4 {font-size:1.5rem;}
+  h5 {font-size:1rem;}
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1 {font-size:3rem;} /*1rem = 16px*/
+  h2 {font-size:2rem;}
+  h3 {font-size:2rem;}
+  h4 {font-size:1.5rem;}
+  h5 {font-size:1rem;}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {font-size:3rem;} /*1rem = 16px*/
+  h2 {font-size:2.5rem;}
+  h3 {font-size:2rem;}
+  h4 {font-size:1.5rem;}
+  h5 {font-size:1rem;}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {font-size:3.5rem;} /*1rem = 16px*/
+  h2 {font-size:3rem;}
+  h3 {font-size:2.5rem;}
+  h4 {font-size:1.5rem;}
+  h5 {font-size:1rem;}
+}
+/********************FONT FAMILIES**********************/
+@font-face {
+	font-family: seasons;
+    src: url(raleway/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: seasons-script;
+	src: url(raleway/Montserrat-Black.ttf);
+}
+@font-face {
+	font-family: seasonsbold;
+	src: url(raleway/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: seasons-semibold;
+    src: url(raleway/Montserrat-SemiBold.ttf);
+}
+@font-face {
+	font-family: seasons-medium;
+    src: url(raleway/Montserrat-Medium.ttf);
+}
+/***************************FONT STYLES*********************/
+.seasons-white {
+	color:white;
+	text-shadow: 2px 2px #3C3427;
+	font-family:seasons-medium;
+	border-color:black;
+	border-width: 1px;
+}
+.seasons-white-noshadow {
+	color:white;
+	font-family:seasons-medium;
+}
+.seasonsmedium-brown {
+	color:#3C3427;
+	font-family: seasons-medium;
+	text-shadow: 2px 2px white;
+}
+.seasonsmedium-brown-noshadow {
+	color:#3C3427;
+	font-family: seasons-medium;
+}
+.seasons-brown {
+	color:#3C3427;
+	font-family: seasons;
+	text-shadow: 2px 2px white;
+}
+.seasons-brown-noshadow {
+	color:#3C3427;
+	font-family: seasons;
+}
+.seasonsbold-brown{
+	font-family: seasonsbold;
+	color: #3C3427;
+	text-shadow: 2px 2px white;
+}
+.footertext {
+	color:#01B1AF;
+	font-size:80%;
+}
+/**************************LAYOUT****************************/
+/**Clearfix**/
+.clearfix {
+    overflow: auto;
+}
+/**Center**/
+.center {
+	margin: auto;
+	text-align: center;
+}
+/** Responsive image **/
+.responsive {
+	width:100%;
+	height:auto;
+}
+/************************ TRANSITIONS ****************************/
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/****fade in elements*******/
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+.fade-in.in-view {
+	opacity:1;  
+	z-index: inherit;
+	-webkit-animation:fadeIn ease-in 1;  
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+/*******************************BUTTONS***************************/
+.btn {
+	letter-spacing: 3px;
+}
+/***BTN-CUSTOM-BLUE***/
+.btn-custom-blue {
+	background-color:#01B1AF;
+	border-color:white;
+	font-family: seasons;
+	color:white;
+}
+.btn-custom-blue:hover{
+	background-color:white;
+	color:#01B1AF;
+	border-color:#01B1AF;
+}
+.btn-custom-blue:active{
+    color:white;
+}
+/***BTN-CUSTOM-BROWN***/
+.btn-custom-brown {
+	color:white;
+	background-color:#3C3427;
+	border-color:white;
+}
+.btn-custom-brown:hover{
+	background-color:white;
+	color:#01B1AF;
+	border-color:#01B1AF;
+}
+.btn-custom-brown:active{
+    color:#01B1AF;
+}
+/***BTN-CUSTOM-BROWN-BLUE***/
+.btn-custom-brown-blue {
+	color:white;
+	background-color:#3C3427;
+	border-color:white;
+}
+.btn-custom-brown-blue:hover{
+	background-color:#01B1AF;
+	color:white;
+	border-color:white;
+}
+.btn-custom-brown-blue:active{
+    background-color:#faeddd;
+	color:#3C3427;
+	border-color:#3C3427;
+}
+/***BTN-CUSTOM-BROWN-TRANSPARENT***/
+.btn-custom-brown-transparent {
+	color:#3C3427;
+	background-color:transparent;
+	border-color:#3C3427;
+}
+.btn-custom-brown-transparent:hover{
+	background-color:#01B1AF;
+	color:white;
+	border-color:white;
+}
+.btn-custom-brown-transparent:active{
+    background-color:#faeddd;
+	color:#3C3427;
+	border-color:#3C3427;
+}
+/***BTN-CUSTOM-WHITE***/
+.btn-custom-white {
+	color:#3C3427;
+	background-color:white;
+	border-color:#3C3427;
+}
+.btn-custom-white:hover{
+	background-color:#01B1AF;
+	color:white;
+	border-color:white;
+}
+.btn-custom-white:active{
+    background-color:#faeddd;
+	color:#3C3427;
+	border-color:#3C3427;
+}
+/*******************************HEADER FRAMEWORK***********************/
+.header {
+	width:auto;
+	margin:auto;
+	height: 15em;
+	background-image: url("images/header.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.header-overlay {
+	width:auto;
+	margin:auto;
+	height: 15em;
+	background-color: rgba(60, 52, 39, 0.234);
+}
+/************************************NAVBAR*****************************/
+/* Style the navbar */
+.navbar {
+	width:100%;
+	height:4rem;
+    background-color: transparent; 
+    z-index:2000;
+    font-family: seasons;
+	margin:auto;
+	letter-spacing: 3px;
+}
+/* Navbar background on scroll */
+#navigation {
+    background-color: transparent; /* default transparent */
+    transition: background-color 0.3s ease;
+}
+/* Navbar scrolled background */
+#navigation.scrolled {
+    background-color: #3C3427;
+}
+/* Mobile collapse background instantly */
+@media (max-width: 991.98px) {
+    #navbarSupportedContent {
+        background-color: #3C3427 !important;
+        transition: none !important;
+    }
+    #navbarSupportedContent.scrolled {
+        background-color: #3C3427 !important;
+    }
+}
+/* Style the Toggler */
+.custom-nav-toggler.navbar-toggler-icon {
+	border-color: rgb(1,177,175);
+}
+.custom-nav-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,177,175, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-nav-toggler.navbar-toggler-icon.brown {
+	border-color: rgb(1,177,175);
+}
+.custom-nav-toggler .navbar-toggler-icon.brown {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,177,175, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* Navbar links on collapse */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  margin:2px;
+  text-shadow:2px 2px #3C3427;
+}
+.navbar a:visited {
+	color:white;
+	text-shadow:2px 2px #3C3427;
+}
+.navbar a:hover {
+	color:#01B1AF;
+	text-shadow:2px 2px #3C3427;
+}
+.navbar a:active {
+	color:white;
+	text-shadow:2px 2px #3C3427;
+}
+.nav-item.hidden {
+	display: none;
+}
+/************************************INDEX PAGE CONTENT*****************************/
+/***********************************XMAS BANNER***************************/
+.xmasbanner {
+	width:100%;
+	height: auto;
+	background-image: url('images/xmasborder.jpg');
+	border-top:2px  solid #3C3427;
+	border-bottom:2px  solid #3C3427;
+	text-align:center;
+	font-family: seasons-medium;
+}
+/********************************ABOUT US SECTION*************************/
+.aboutus-section {
+	height:auto;
+	width: 100%;
+	padding:2rem;
+	background-color: #3C3427;
+}
+.aboutus-card {
+	background-color: #faeddd;
+	border:none;
+	letter-spacing: 0;
+	box-shadow: 5px 5px 5px rgb(36, 36, 36);
+}
+/************************************CAROUSEL*****************************/
+.carousel-indicators{
+	z-index:1;
+}
+.carousel-overlay {
+	width: 100%;
+	height: auto;
+	background-color: rgb(60, 52, 39,0.627);
+	border-radius: 10px;
+	padding: 1rem;
+}
+/*Advert 1*/
+.indexcarouselimg1{
+	height:22em;
+	width:100%;
+	font-family: seasons;
+	border-top:1px solid #3C3427;
+	border-bottom:1px solid #3C3427;
+	background: url('images/coffee.jpg') no-repeat;
+	background-size:cover;
+	object-fit: contain;
+}
+.illy {
+    width:3rem;
+    height:auto;
+    position: inherit;
+	border-radius: 5px;
+}
+/*Advert 2*/
+.indexcarouselimg2{
+    height:22em;
+    max-width:100%;
+    background-color: beige;
+    background: url('images/flower.jpg') no-repeat;
+    background-size:cover;
+    object-fit: contain;
+}
+/*Advert 3*/
+.indexcarouselimg3{
+	min-height:22em;
+	width:100%;
+	border-top:1px solid #3C3427;
+	border-bottom:1px solid #3C3427;
+	background: url('images/mag.png') no-repeat center;
+	background-size:100%;
+	background-size:cover;
+	object-fit: contain;
+}  
+/*Advert 4*/ 
+.indexcarouselimg4{
+	min-height:22em;
+	width:100%;
+	border-top:1px solid #3C3427;
+	border-bottom:1px solid #3C3427;
+	background-image:url('images/food.jpg');
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-size:cover;
+	object-fit: contain;
+}
+/*Advert 5*/
+.indexcarouselimg5{
+	min-height:22em;
+	width:100%;
+	border-top:1px solid #3C3427;
+	border-bottom:1px solid #3C3427;
+	background: url('images/sparkle.jpg') no-repeat center;
+	background-size:100%;
+	background-size:cover;
+	object-fit: contain;
+}
+/************************************EVENT SECTION*****************************/
+.event-section {
+	height:auto;
+	width: 100%;
+	padding:2rem;
+	background-color: #faeddd;
+}
+.eventcard {
+	background-color: #faeddd;
+	border: 1px solid #3C3427;
+	box-shadow: 5px 5px 5px rgb(36, 36, 36);
+	margin-bottom: 2rem;
+}
+/************************************FOOTER SECTION****************************/
+#footer {
+	background-color: #3C3427;
+	color:white;
+	width:100%;
+	text-align:center;
+	padding:1em;
+}
+.footerlink {
+	color:#01B1AF;
+	font-size:80%;
+	text-decoration-line:none;
+	cursor:pointer;
+}
+.footerlink:hover {
+	color:white;
+	text-shadow:2px 2px #3C3427;
+	text-decoration:none;
+}
+/************************************MENU PAGE CONTENT*****************************/
+.menu-wrapper {
+	width: 100%;
+	height:auto;
+	background: url('images/wood.jpg') no-repeat center;
+}
