@@ -1,0 +1,44 @@
+# Design source files (GIMP, Photoshop, Adobe XD, etc.)
+*.kra
+*.psd
+*.xd
+
+# Autosave/backup files
+*~ 
+
+# Mac OS system junk
+__MACOSX/
+.DS_Store
+
+# Backup / temporary files
+*.kra~
+*.xcf~
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+
+# Microsoft Office / LibreOffice files
+*.docx
+*.doc
+*.dotx
+*.xlsx
+*.xlsm
+*.xls
+*.pptx
+*.ppt
+*.odt
+*.ods
+
+# PDF / exports
+*.pdf
+*.psd
+
+# Version control backup folders
+version_control/v3_Jan2024/
+version_control/v4_Nov2024/
+version_control/v5_Jan2025/
+
+# System files
+Thumbs.db
+Desktop.ini

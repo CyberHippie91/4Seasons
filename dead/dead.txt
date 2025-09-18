@@ -1,0 +1,37 @@
+        <!------------------------COMMENTED OUT - 4TH BANNER AD---------------------
+            <div class="carousel-item">
+                <div class="d-block w-100 indexcarouselimg5"   alt="Second slide">
+                    <div class="carousel-caption">
+                        ------------------BANNER CONTENT----------------
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                -------------LARGER DEVICES--------------
+                                <h1 class="blackboard d-none d-xs-none d-sm-none d-md-none d-lg-block">STEAKS N SKIPPERS CATCH</h1>
+                                -------------SMALLER DEVICES--------------
+                                <h1 class="blackboard d-xs-block d-sm-block d-md-block d-lg-none">STEAKS N SKIPPERS</h1>
+                                <h5 class="blackboard d-xs-block d-sm-block d-md-none">STEAK MENU AND SKIPPERS MENU NOW AVAILABLE</h5>
+                            </div>
+                            -------------MEDIUM - LARGER DEVICES ONLY--------------
+                            -------------LEFT COLUMN--------------
+                            <div class="col-6">
+                                <div class="chalkborder d-none d-xs-none d-sm-none d-md-block">
+                                    <h3 class="blackboard d-none d-xs-none d-sm-none d-md-block">STEAK MENU</h3>
+                                    <h5 class="blackboard d-none d-xs-none d-sm-block d-md-block"> SERVED WITH TRIPLE COOKED CHIPS, GRILLED MUSHROOMS AND TOMATOES WITH CHOICE OF SAUCES</h5>
+                                </div>
+                            </div>
+                            -------------RIGHT COLUMN--------------
+                            <div class="col-6">
+                                <div class="chalkborder d-none d-xs-none d-sm-none d-md-block">
+                                    <h3 class="blackboard d-none d-xs-none d-sm-none d-md-block">SKIPPERS CHOICE</h3>
+                                    <h5 class="blackboard d-xs-block d-sm-block d-md-none">SKIPPERS CHOICE NOW AVAILABLE</h5>
+                                    <h5 class="blackboard d-none d-xs-none d-sm-block d-md-block"> SERVED WITH A CHOICE OF POTATOES, SEASONAL VEGETABLES AND SAUCE</h5>
+                                </div>
+                            </div>
+                            -------------BUTTON LINK--------------
+                            <div class="col-12"> <br>
+                            <a href="menu.html" class="btn btn-primary btn-custom-brown" role="button">VIEW MENU </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
