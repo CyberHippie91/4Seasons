@@ -35,7 +35,6 @@ __MACOSX/
 *.psd
 
 # Version control backup folders
-version_control/v3_Jan2024/
 version_control/v4_Nov2024/
 version_control/v5_Jan2025/
 
