@@ -484,14 +484,31 @@ p  {
 	text-shadow:2px 2px #3C3427;
 	text-decoration:none;
 }
-/************************************MENU PAGE CONTENT*****************************/
-.menu-wrapper {
+/************************************OTHER PAGE CONTENT*****************************/
+.content-wrapper {
 	border-top: solid 2px #3C3427;
 	background: url('images/wood.jpg');
 }
 .title {
 	margin-top: 1rem;
+	background-color: rgb(60, 52, 39,0.627);
+	border-radius: 10px;
+	padding: 1rem;
+	width:auto;
 }
 .download {
 	margin-top:1rem;
+}
+/* --- EVENT CAROUSEL INDICATOR COLOUR CHANGES --- */
+.carousel-indicators [data-bs-target] {
+  background-color: #bbb;       /* inactive dot color */
+}
+.carousel-indicators .active {
+  background-color: #01B1AF;    /* active dot color */
+}
+
+/* --- Control arrows --- */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: brightness(0) saturate(100%) invert(49%) sepia(98%) saturate(1522%) hue-rotate(141deg) brightness(91%) contrast(99%);  /* tweak filter until you get your color */
 }
