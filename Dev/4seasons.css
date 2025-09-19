@@ -486,7 +486,12 @@ p  {
 }
 /************************************MENU PAGE CONTENT*****************************/
 .menu-wrapper {
-	width: 100%;
-	height:auto;
-	background: url('images/wood.jpg') no-repeat center;
+	border-top: solid 2px #3C3427;
+	background: url('images/wood.jpg');
+}
+.title {
+	margin-top: 1rem;
+}
+.download {
+	margin-top:1rem;
 }
