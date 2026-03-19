@@ -443,13 +443,24 @@ p  {
 	width:100%;
 	border-top:1px solid #3C3427;
 	border-bottom:1px solid #3C3427;
+	background: url('images/easter.jpg') no-repeat center;
+	background-size:100%;
+	background-size:cover;
+	object-fit: contain;
+}  
+/*Advert 4*/
+.indexcarouselimg4{
+	min-height:22em;
+	width:100%;
+	border-top:1px solid #3C3427;
+	border-bottom:1px solid #3C3427;
 	background: url('images/mag.png') no-repeat center;
 	background-size:100%;
 	background-size:cover;
 	object-fit: contain;
 }  
-/*Advert 4*/ 
-.indexcarouselimg4{
+/*Advert 5*/ 
+.indexcarouselimg5{
 	min-height:22em;
 	width:100%;
 	border-top:1px solid #3C3427;
@@ -460,8 +471,8 @@ p  {
 	background-size:cover;
 	object-fit: contain;
 }
-/*Advert 5*/
-.indexcarouselimg5{
+/*Advert 6*/
+.indexcarouselimg6{
 	min-height:22em;
 	width:100%;
 	border-top:1px solid #3C3427;
