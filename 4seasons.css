@@ -102,6 +102,10 @@ p  {
 	font-family: seasons-medium;
     src: url(Montserrat/Montserrat-Medium.ttf);
 }
+@font-face {
+	font-family: seasons-italic;
+    src: url(Montserrat/YouthShandey.ttf);
+}
 /***************************FONT STYLES*********************/
 .seasons-white {
 	color:white;
@@ -137,11 +141,27 @@ p  {
 	color: #3C3427;
 	text-shadow: 2px 2px white;
 }
+.seasons-italic {
+	font-family: seasons-italic;
+	color: #3C3427;
+	text-shadow: 2px 2px white;
+}
 .footertext {
 	color:#01B1AF;
 	font-size:80%;
 	font-family: seasons-medium;
 	letter-spacing: 3;
+}
+.tel-text {
+	color:#3C3427;
+	font-family: seasons-medium;
+	letter-spacing: 3;
+}
+.tel-text:hover {
+	color:#01B1AF;
+	font-family: seasons-medium;
+	letter-spacing: 3;
+
 }
 /**************************LAYOUT****************************/
 /**Clearfix**/
@@ -443,7 +463,7 @@ p  {
 	width:100%;
 	border-top:1px solid #3C3427;
 	border-bottom:1px solid #3C3427;
-	background: url('images/easter.jpg') no-repeat center;
+	background: url('images/Easter.jpg') no-repeat center;
 	background-size:100%;
 	background-size:cover;
 	object-fit: contain;
@@ -454,10 +474,8 @@ p  {
 	width:100%;
 	border-top:1px solid #3C3427;
 	border-bottom:1px solid #3C3427;
-	background: url('images/mag.png') no-repeat center;
-	background-size:100%;
-	background-size:cover;
-	object-fit: contain;
+	background: url('images/icecreamBackground.jpg') no-repeat center;
+    background-size: cover;
 }  
 /*Advert 5*/ 
 .indexcarouselimg5{
