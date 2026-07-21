@@ -161,7 +161,28 @@ p  {
 	color:#01B1AF;
 	font-family: seasons-medium;
 	letter-spacing: 3;
+}
+.brand-text-sml {
+	position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 100%;
+    text-align: center;
 
+    font-size: 5vw;
+    letter-spacing: 0.15em;
+    color: white;
+    text-shadow: 2px 2px #3C3427;
+    font-family: seasons;
+    
+    white-space: nowrap;
+}
+@media(min-width: 576px)  {
+	.brand-text-sml {
+	opacity: 0;
+}	
 }
 /**************************LAYOUT****************************/
 /**Clearfix**/
@@ -303,13 +324,16 @@ p  {
     background-position: left;
     background-repeat: no-repeat;
 	background-size:cover;
+	
 }
 .header-overlay {
 	width:auto;
 	margin:auto;
 	height: 15em;
 	background-color: rgba(60, 52, 39, 0.234);
+	position: relative;
 }
+
 /************************************NAVBAR*****************************/
 /* Style the navbar */
 .navbar {
